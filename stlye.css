@@ -33,6 +33,7 @@ body {
 .menu {
     display: flex;
     justify-content: center;
+    transform: translateY(-40px);
 
 }
 
@@ -98,6 +99,6 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: circle(600px at right 800px);
+    clip-path: circle(650px at right 800px);
  
 }
