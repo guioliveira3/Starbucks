@@ -20,7 +20,7 @@
 
     <div class="conteudo">
         <div class="caixa-texto">
-            <h2> Não é apenas Café, é um <span>Starbucks</span> </h2>
+            <h2> Não é apenas Café, é um <span class="main-starbucks">Starbucks</span> </h2>
             <p> Nossa missão: A cada xícara, a cada conversa, com cada comunidade  Nós nutrimos infinitas possibilidades de conexão humana.</p>
 
             <button class="like">Deixe o seu Like</button>
@@ -38,6 +38,7 @@
 
 </body>
 
+
 <script>
 let circulo = document.querySelector (".circulo")
 let imgCopo = document.querySelector (".starbucks")
@@ -45,22 +46,30 @@ let verde = document.querySelector (".verde")
 let amarelo = document.querySelector (".amarelo")
 let rosa = document.querySelector (".rosa")
 let like = document.querySelector (".like")
+let starbucks = document.querySelector (".main-starbucks")
+
 
 verde.addEventListener("click", () => {
     imgCopo.src = "./img/img1.png"
     circulo.style.background = "#017143"
+    starbucks.style.color = "#017143"
+    like.style.background = "#017143"
 
 })
 
 amarelo.addEventListener("click", () => {
     imgCopo.src = "./img/img2.png"
     circulo.style.background = "#eb7495"
+    starbucks.style.color = "#eb7495"
+    like.style.background = "#eb7495"
 
 })
 
 rosa.addEventListener("click", () => {
     imgCopo.src = "./img/img3.png"
     circulo.style.background = "#d752b1"
+    starbucks.style.color = "#d752b1"
+    like.style.background = "#d752b1"
 
 })
 
